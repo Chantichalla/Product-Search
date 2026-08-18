@@ -1,0 +1,35 @@
+# Virtual Environment
+myvenv/
+venv/
+env/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python Caches & Compiled Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node & Next.js Build Artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel
+
+# IDE & Editor Configs
+.agent/
+.vscode/
+.idea/
+*.swp
+
+# SQLite Local Database & Generated Media
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/price_charts/*.png
+data/price_charts/*.jpg
